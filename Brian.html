@@ -25,6 +25,7 @@
     </nav>
     <!--Section to contain the menu -->
     <nav id="hamburger-nav">
+        <!--Div used to group related elements together-->
         <div class="logo">Brian kemei</div>
         <div class="hamburger-menu">
             <!--Java script is included-->
@@ -34,6 +35,7 @@
                 <span></span>
             </div>
             <div class="menu-links">
+               
                 <li><a href="#about" onclick="toggleMenu()"> About</a> </li>            
                 <li> <a href="#experience" onclick="toggleMenu()"> Experience</a> </li>
                 <li> <a href="#project" onclick="toggleMenu()"> Projects</a> </li>
@@ -41,6 +43,36 @@
             </div>
         </div>
     </nav>
+    <!--element that enables you to create standalone sections on a web page.-->
+    <section id="profile">
+        <div class="section_pic-container"> 
+            <img src="./Resources/profile-pic.png" alt="Brian profile picture">
+        </div> 
+        <div class="section_text">
+            <!--Paragraph to explain -->
+            <p class="section_text-p1">Hello, I am Brian</p>
+            <!--Heading of the section-->
+            <h1 class="title"> Brian Kemei</h1>
+            <p class="section_text-p2">Student in Morehouse college</p>
+            <div class="btn_container">
+                <button class="btn-color-2" onclick="window.open('./Resources/Resume.pdf')">Download Resume</button>
+            </div>
+            <div class="btn_container"></div>
+                <button class="btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info 
+                </button>
+            </div>
+            <div id="social-container">
+                <img src="./Resources/linkedin.png" alt="My Linkedin profile " class="icon"
+                 onclick="location.href='https://www.linkedin.com/in/briankemei'">
+
+                <img src="./Resources/github.png" alt="My Linkedin profile " class="icon"
+                 onclick="location.href='https://github.com/briankemei'">
+
+            </div>
+        </div>  
+
+    </section>
     <script src="script.js"></script>   
 </body>
 </html>

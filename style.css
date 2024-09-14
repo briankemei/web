@@ -95,4 +95,53 @@ a:hover {
     transition: all 0.03 ease-in-out;
 }
 
+/*Target the menu-links div inside it the links*/
+
+.menu-links a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+
+}
+.menu-links li{
+    list-style: none;/*Remove the bullet points*/
+}
+
+
+.menu-links.open{
+    max-height: 300px;
+
+}
+/*For the first span elements*/
+.hamburger-icon.open span:first-child{
+    transform: rotate(45deg) translate(10px,5px);
+
+}
+/*Target the 2nd child elements in the span*/
+.hamburger-icon.open span:nth-child(2){
+    opacity: 0;/*Removing the 2nsd line completely*/
+
+}
+.hamburger-icon.open span:last-child{
+    transform: rotate(-45deg) translate(10px,-5px);
+
+}
+
+.hamburger-icon span:first-child{
+    transform: none;
+
+}
+.hamburger-icon span:first-child{
+    opacity: 1;
+
+}
+.hamburger-icon span:first-child{
+    transform: none;
+
+}
+
 
