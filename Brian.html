@@ -45,32 +45,80 @@
     </nav>
     <!--element that enables you to create standalone sections on a web page.-->
     <section id="profile">
-        <div class="section_pic-container"> 
-            <img src="./Resources/profile-pic.png" alt="Brian profile picture">
+        <div class="section-pic-container"> 
+            <img src="./Resources/Brian-1.JPG"
+             alt="Brian profile picture" 
+             class="profile-pic">
         </div> 
-        <div class="section_text">
+        <div class="section-text">
             <!--Paragraph to explain -->
             <p class="section_text-p1">Hello, I am Brian</p>
             <!--Heading of the section-->
             <h1 class="title"> Brian Kemei</h1>
-            <p class="section_text-p2">Student in Morehouse college</p>
+            <p class="section_text-p2">Front end developer</p>
+
             <div class="btn_container">
-                <button class="btn-color-2" onclick="window.open('./Resources/Resume.pdf')">Download Resume</button>
-            </div>
-            <div class="btn_container"></div>
-                <button class="btn-color-1" onclick="location.href='./#contact'">
+                <button class="btn btn-color-2" 
+                onclick="window.open('./Resources/Resume.pdf')">
+                Download cv
+                </button>            
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
                     Contact Info 
                 </button>
-            </div>
+            </div>    
+            
             <div id="social-container">
-                <img src="./Resources/linkedin.png" alt="My Linkedin profile " class="icon"
+                <img src="./Resources/linkedin.png" 
+                alt="My Linkedin profile " class="icon"
                  onclick="location.href='https://www.linkedin.com/in/briankemei'">
 
-                <img src="./Resources/github.png" alt="My Linkedin profile " class="icon"
+                <img src="./Resources/github.png" 
+                alt="My Linkedin profile " class="icon"
                  onclick="location.href='https://github.com/briankemei'">
 
             </div>
         </div>  
+
+    </section>
+    <section id="About">
+        <p class="section_text-p1">Get to know me</p>
+        <h1 class="title"> About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./Resources/about-pic.png"
+                 alt="Brian profile picture"
+                  class="About_pic">
+
+            </div>
+            <div class="about_details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Resources/experience.png"
+                        alt="Experience icon"
+                        class="icon">
+                        <h1>Experience</h1>
+                        <p>2 Interships in Grady Health systems</p>
+
+                    </div>
+                    <div class="details-container">
+                        <img src="./Resources/education.png"
+                        alt="Experience icon"
+                        class="icon">
+                        <h1>Education</h1>
+                        <p>Morehouse college: junior 2022–2026Morehouse College – Atlanta, GA; Class of 2026
+                            BS Software engineering with a Minor in Spanish
+                            GPA: 3.4/4.00
+                            Relevant Coursework: 
+                            Introduction to Computer Science, Computer Programming 1 
+                            (Taught by Google in Residence), Computer Organization, 
+                            Computer Programming 2, Data Structures & Algorithms, 
+                            Product Management
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
     <script src="script.js"></script>   
