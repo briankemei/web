@@ -17,8 +17,9 @@
             <!--navigation links appearing at the top of the page-->
             <ul class="nav-links">
                 <li><a href="#about"> About</a> </li>            
-                <li> <a href="#experience"> Experience</a> </li>
-                <li> <a href="#project"> Projects</a> </li>
+                <li> <a href="#skills"> Skills</a> </li>
+                <li> <a href="#projects"> Projects</a> </li>
+                <li> <a href="#athletics"> Athletics</a> </li>
                 <li> <a href="#contact"> Contact</a> </li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
             </ul>
         </div>
@@ -37,8 +38,9 @@
             <div class="menu-links">
                
                 <li><a href="#about" onclick="toggleMenu()"> About</a> </li>            
-                <li> <a href="#experience" onclick="toggleMenu()"> Experience</a> </li>
-                <li> <a href="#project" onclick="toggleMenu()"> Projects</a> </li>
+                <li> <a href="#skills" onclick="toggleMenu()"> Skills</a> </li>
+                <li> <a href="#projects" onclick="toggleMenu()"> Projects</a> </li>
+                <li> <a href="#athletics" onclick="toggleMenu()"> Athletics</a> </li>
                 <li> <a href="#contact" onclick="toggleMenu()"> Contact</a> </li> 
             </div>
         </div>
@@ -46,7 +48,7 @@
     <!--element that enables you to create standalone sections on a web page.-->
     <section id="profile">
         <div class="section-pic-container"> 
-            <img src="./Resources/Brian-1.JPG"
+            <img src="./Resources/Briank.jpg"
              alt="Brian profile picture" 
              class="profile-pic">
         </div> 
@@ -80,55 +82,268 @@
         </div>  
 
     </section>
-    <section id="About">
-        <p class="section_text-p1">Get to know me</p>
-        <h1 class="title"> About Me</h1>
+    <section id="about">
+        <p class="section_text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
         <div class="section-container">
-            <div class="section_pic-container">
-                <img src="./Resources/about-pic.png"
-                 alt="Brian profile picture"
-                  class="About_pic">
-
+          <div class="section__pic-container">
+            <img
+              src="./Resources/Brian-3.jpeg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./Resources/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>2+ years <br />Frontend Development</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./Resources/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>B.Sc. Bachelors Degree 2022 - 20226<br />
+                    Morehouse College, class of 2026<br />
+                                       M.Sc. Masters Degree
+                </p>
+              </div>
             </div>
-            <div class="about_details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img src="./Resources/experience.png"
-                        alt="Experience icon"
-                        class="icon">
-                        <h1>Experience</h1>
-                        <p>2 Interships in Grady Health systems</p>
+            <div class="text-container">
+              <p>
+                My name is Brian Kemei, and I am currently a Junior majoring in Software Engineering
+                at Morehouse college. With a strong passion for technology and problem-solving, I have 
+                immersed myself in various programming languages, including Python, Java, and C++.
+                Throughout my academic journey, I have been involved in several group projects, 
+                where I collaborated with peers to develop innovative software solutions. 
+                Additionally, apart from and workshops to enhance our skills. 
+                As I continue my studies, I aim to gain practical experience through internships
+                and contribute to exciting projects in the tech industry.
 
-                    </div>
-                    <div class="details-container">
-                        <img src="./Resources/education.png"
-                        alt="Experience icon"
-                        class="icon">
-                        <h1>Education</h1>
-                        <p>Morehouse college: <br/> 2022–2026Morehouse College – Atlanta, GA; Class of 2026
-
-                        </p>
-
-                    </div>
-                </div>
-                <div class="text_container">
-                    <p>
-                        BS Software engineering with a Minor in Spanish
-                            GPA: 3.4/4.00
-                            Relevant Coursework: 
-                            Introduction to Computer Science, Computer Programming 1 
-                            (Taught by Google in Residence), Computer Organization, 
-                            Computer Programming 2, Data Structures & Algorithms, 
-                            Product Management
-                    </p>
-
-                </div>
+                </p>
             </div>
+          </div>
         </div>
-        <!--Arrow to take us to the next page -->
-        <img src="./Resources/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+        <img
+          src="./Resources/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='#skills'"
+        />
+        
+    </section>
+
+    <section id="skills" >
+      <p class="section_text-p1"> Explore my Skills</p>
+      <h1 class="title">Myskills & languages</h1>
+      <div class="skills"> 
+        <ol>
+
+            <li> <h3> Html & CSS</h3> 
+                <span class="Bar">
+                    <span class="html"></span>
+                </span>
+            </li>                            
+            <li> <h3> Python</h3> 
+                <span class="Bar">
+                    <span class="Python"></span>
+                </span>
+            </li>
+            <li> <h3> C++</h3> 
+                <span class="Bar">
+                    <span class="C"></span>
+                </span>
+            </li>
+            <li> <h3> SQL</h3> 
+                <span class="Bar">
+                    <span class="SQL"></span>
+                </span>
+            </li>
+            <li> <h3> Javascript</h3> 
+                <span class="Bar">
+                    <span class="Javascript"></span>
+                </span>
+            </li>
+            <li> <h3> Github</h3> 
+                <span class="Bar">
+                    <span class="Javascript"></span>
+                </span>
+            </li>
+            <li> <h3> AWS Cloud</h3> 
+                <span class="Bar">
+                    <span class="Javascript"></span>
+                </span>
+            </li>
+            <li> <h3> English</h3> 
+                <span class="Bar">
+                    <span class="english"></span>
+                </span>
+            </li>
+            <li> <h3> Kiswahili</h3> 
+                <span class="Bar">
+                    <span class="Kiswahili"></span>
+                </span>
+            </li>
+            <li> <h3> Spanish</h3> 
+                <span class="Bar">
+                    <span class="Spanish"></span>
+                </span>
+            </li>
+          </ol>                    
+        
+      </div>
+      <img
+      src="./Resources/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='#projects'"
+      />
+    </section>     
+      
+    <section id="projects">
+      <p class="section_text-p1"> Browse my recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience_details-container">
+        <div class="about-containers"> 
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./Resources/Project-RSP.png"
+              alt="project 1"
+                class="project-img"
+              />
+              <h2 class="experience-sub-title project-title">Rock scissor Paper game</h2>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/briankemei/RockScissorsPaper '">
+                  Github
+
+                </button>
+
+              </div>
+
+
+            </div>
+
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./Resources/project-3.png"
+              alt="project 2"
+                class="project-img"
+              />
+              <h2 class="experience-sub-title project-title"> Brian.com </h2>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/briankemei/GradesManagement '">
+                  Github
+
+                </button>
+
+              </div>
+
+
+            </div>
+
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./Resources/project-2.png"
+              alt="project 3"
+                class="project-img"
+              />
+              <h2 class="experience-sub-title project-title">Grades Management</h2>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/briankemei/web '">
+                  Github
+
+                </button>
+
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <img
+        src="./Resources/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
 
     </section>
+    <section id="athletics">
+      <p class="section_text-p1">Athletics accomplishments</p>
+      <h1 class="title">Student Athlete</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./Resources/PIC-TF.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./Resources/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Track </h3>
+              <p> Event       Time</p>
+              <p>1500m  4:03</p>
+              <p>3000m  8:56</p>              
+              <p>5000m  14:53</p>
+              <p>10000m  31:01</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./Resources/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Cross Country</h3>
+              <p>Event time</p>
+              <p>8 km    24:39 </p>
+              <p>10 km   30:46</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              
+              I am a dedicated student-athlete and co-captain of the Morehouse Cross Country team,
+              with a strong track record of success in both cross country and track and field. 
+              As a 5-time Morehouse Track and Field and Cross Country MVP, I have demonstrated
+              consistent leadership, discipline, and a competitive spirit. I have broken school
+              records in the 10,000m and the 6.2-mile cross country race, and I have earned 2-MVP
+              honors at the SIAC Championship. My experience balancing athletics and academics 
+              has honed my skills in time management, teamwork, and perseverance, fueling my 
+              drive to achieve success on and off the track.
+
+              </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./Resources/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#skills'"
+      />
+      
+  </section>
+
     <script src="script.js"></script>   
 </body>
 </html>

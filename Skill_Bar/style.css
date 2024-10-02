@@ -1,0 +1,163 @@
+
+.title{
+     text-align: center;
+}
+h3{
+    margin: 5px;
+}
+.skills{
+    background-color: white;
+    text-transform: capitalize;
+    width: 500px;
+    margin: 60px auto;
+    color: black;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22) ;
+}
+.skills ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.skills li{
+    margin: 20px;
+    
+}
+.Bar{
+    background-color: brown;
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),0 10px 10px rgba(0, 0, 0, 0.22) ;
+    transition:  0.3ms cubic-bezier(.25, .08, .25, 1);
+    
+
+}
+.Bar :hover{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.22),0 10px 10px rgba(0, 0, 0, 0.22) ;
+}
+.Bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(0, 236, 189)0%, rgba(256,256,256,1)100%);
+}
+.html{
+    width: 70%;
+    animation: html 3s;
+}
+.css{
+    width: 60%;
+    animation: html 3s;
+}
+.C{
+    width: 70%;
+    animation: html 3s;
+}
+.Python{
+    width: 50%;
+    animation: html 3s;
+}
+.SQL{
+    width: 25%;
+    animation: html 3s;
+}
+.Javascript{
+    width: 25%;
+    animation: html 3s;
+}
+.english{
+    width: 80%;
+    animation: html 3s;
+}
+.Kiswahili{
+    width: 90%;
+    animation: html 3s;
+}
+.Spanish{
+    width: 25%;
+    animation: html 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+
+}
+@keyframes Python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+
+}
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+
+}
+@keyframes SQL{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+
+}
+@keyframes Javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+
+}
+@keyframes english{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+
+}
+@keyframes Kiswahili{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+
+}
+@keyframes Spanish{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+
+}
