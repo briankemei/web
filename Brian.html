@@ -54,17 +54,17 @@
         </div> 
         <div class="section-text">
             <!--Paragraph to explain -->
-            <p class="section_text-p1">Hello, I am Brian</p>
+            <p class="section_text-p1">Hello, I am </p>
             <!--Heading of the section-->
             <h1 class="title"> Brian Kemei</h1>
-            <p class="section_text-p2">Front end developer</p>
+            <p class="section_text-p2">Software Engineering major </p>
 
             <div class="btn_container">
                 <button class="btn btn-color-2" 
                 onclick="window.open('./Resources/Resume.pdf')">
                 Download cv
                 </button>            
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                <button class="btn btn-color-1" onclick="location.href='#contact'">
                     Contact Info 
                 </button>
             </div>    
@@ -209,7 +209,7 @@
     </section>     
       
     <section id="projects">
-      <p class="section_text-p1"> Browse my recent</p>
+      <p class="section_text-p1"> Accomplishments</p>
       <h1 class="title">Projects</h1>
       <div class="experience_details-container">
         <div class="about-containers"> 
@@ -261,14 +261,10 @@
               <div class="btn-container">
                 <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/briankemei/web '">
                   Github
-
                 </button>
 
               </div>
-
-
             </div>
-
           </div>
         </div>
 
@@ -277,7 +273,7 @@
         src="./Resources/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
+        onclick="location.href='#athletics'"
       />
 
     </section>
@@ -300,12 +296,40 @@
                 alt="Experience icon"
                 class="icon"
               />
-              <h3>Track </h3>
-              <p> Event       Time</p>
-              <p>1500m  4:03</p>
-              <p>3000m  8:56</p>              
-              <p>5000m  14:53</p>
-              <p>10000m  31:01</p>
+              <table class="short events">
+                <h3>Track </h3>
+                <tr>
+                  <th>Event</th>
+                  <th>time</th>
+                </tr>
+                <tr>
+                  <td>1500m</td>
+                  <td>4:03</td>
+                </tr>
+                <tr>
+                  <td>3000m</td>
+                  <td>8:56</td>
+                </tr>
+                
+                  <td></td>
+                </tr>
+              </table>
+              <table class="long events">
+                <tr>
+                  <th>Event</th>
+                  <th>time</th>
+                </tr>
+                <tr>
+                  <td>5000m </td>
+                  <td>14:53</td>
+                </tr>
+                <tr>
+                  <td>10000m</td>
+                  <td>31:01</td>
+                </tr>
+
+              </table>
+             
             </div>
             <div class="details-container">
               <img
@@ -339,10 +363,51 @@
         src="./Resources/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='#skills'"
+        onclick="location.href='#contact'"
       />
       
   </section>
+
+  <section id="contact">
+    <p class="section_text-p1"> Get in touch</p>
+
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        
+        <img src="./Resources/email.png" alt="email-icon" 
+        class="icon contact-icon email-icon"/>
+        <p><a href="mailto:briankemei01@gmail.com">Email</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./Resources/linkedin.png" alt="linkedin" 
+        class="icon contact-icon"/>
+        <p><a href="https://www.linkedin.com/in/briankemei/">linkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./Resources/github.png" alt="Github" 
+        class="icon contact-icon"/>
+        <p><a href="https://github.com/briankemei">Github</a></p>
+      </div>
+    </div>
+    
+
+  </section>
+  <footer>
+    <nav>
+      <div class="niv-links-container">
+        <ul class="nav-links">
+          <li><a href="#about"> About</a> </li>            
+          <li> <a href="#skills"> Skills</a> </li>
+          <li> <a href="#projects"> Projects</a> </li>
+          <li> <a href="#athletics"> Athletics</a> </li>
+          <li> <a href="#contact"> Contact</a> </li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+        </ul>
+
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Brian Kemei All Rights Reserverd </p>
+  </footer>
 
     <script src="script.js"></script>   
 </body>
